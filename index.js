@@ -15,7 +15,7 @@ function calculateTax()
 function calculateTax1()
 {
 alert("paying");
-count++;
+++count;
 document.getElementById('count').textContent=count;
 ++tcars;
 tcash+=100;
@@ -24,7 +24,7 @@ tcash+=100;
 function calculateTax2()
 {
     alert("Non paying");
-    count1++;
+    ++count1;
     document.getElementById('count1').textContent=count1;
     ++tcars;
 }
