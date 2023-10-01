@@ -1,6 +1,7 @@
 let tcars = 0;
 let tcash = 0;
 let count=0;
+let count1=0;
 
 
 
@@ -23,8 +24,8 @@ tcash+=100;
 function calculateTax2()
 {
     alert("Non paying");
-    count++;
-    document.getElementById('count1').textContent=count;
+    count1++;
+    document.getElementById('count1').textContent=count1;
     ++tcars;
 }
 
